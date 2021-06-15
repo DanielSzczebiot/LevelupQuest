@@ -7,6 +7,7 @@ import { HeroComponent } from './components/hero/hero.component';
 import { ClassesComponent } from './components/classes/classes.component';
 import { QuestComponent } from './components/quest/quest.component';
 import { ButtonComponent } from './components/button/button.component';
+import { MapComponent } from './components/map/map.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ButtonComponent } from './components/button/button.component';
     HeroComponent,
     ClassesComponent,
     QuestComponent,
-    ButtonComponent
+    ButtonComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
