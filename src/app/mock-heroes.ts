@@ -9,6 +9,7 @@ export const HEROES: Hero[]=[
         willpower: 5,
         intelligence: 3,
         charisma: 5,
+        inventory: [],
     },
     {
         name: 'Henry Herold',
@@ -19,15 +20,17 @@ export const HEROES: Hero[]=[
         willpower: 7,
         intelligence: 4,
         charisma: 5,
+        inventory: [],
     },
     {
         name: 'Zeus Zennic',
-        class: 'Magilitye',
+        class: 'Wizard',
         strenght: 2,
         agility: 3,
         constitution: 2,
         willpower: 6,
         intelligence: 9,
         charisma: 7,
+        inventory: [],
     }
 ]

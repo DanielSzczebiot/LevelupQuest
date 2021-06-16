@@ -7,4 +7,5 @@ export interface Hero{
     willpower: number;
     intelligence: number;
     charisma: number;
+    inventory: String[];
 }
