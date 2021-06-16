@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 98%;
   margin: 30px auto;
   overflow: auto;
   min-height: 600px;
@@ -21,7 +21,7 @@ body {
 }
 .btn {
   display: inline-block;
-  background: #000;
+  background: steelblue;
   color: #fff;
   border: none;
   padding: 10px 20px;

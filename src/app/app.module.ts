@@ -9,6 +9,7 @@ import { QuestComponent } from './components/quest/quest.component';
 import { ButtonComponent } from './components/button/button.component';
 import { MapComponent } from './components/map/map.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
