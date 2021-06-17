@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
 import { Quest } from '../Quest';
 import { QUESTS } from '../mock-quests';
 
@@ -9,8 +10,12 @@ export class QuestService {
 
   constructor() { }
 
-  getQuests(): Quest[]{
-    return QUESTS;
+  getQuests(): Observable <Quest[]>{
+    const quests = of(QUESTS)
+    return quests;
 
   }
+
+  
+
 }

@@ -11,8 +11,9 @@ export class HeroService {
 
   constructor() { }
 
-  getAttributes(): Hero[]{
-    return HEROES;
+  getAttributes():Observable<Hero[]>{
+    const heroes=  of(HEROES);
+    return heroes;
   }
 
 }

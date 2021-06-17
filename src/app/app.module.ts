@@ -24,6 +24,7 @@ import { MainbodyComponent } from './components/mainbody/mainbody.component';
 import { HeroService } from './services/Hero.service';
 import { MapService } from './services/map.service';
 import { QuestService } from './services/quest.service';
+import { HeroItemComponent } from './components/hero-item/hero-item.component';
 
 
 
@@ -35,7 +36,8 @@ import { QuestService } from './services/quest.service';
     ButtonComponent,
     MapComponent,
     HeaderComponent,
-    MainbodyComponent
+    MainbodyComponent,
+    HeroItemComponent
   ],
   imports: [
     BrowserModule,

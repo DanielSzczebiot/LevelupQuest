@@ -15,7 +15,7 @@ export class QuestComponent implements OnInit
   
 
   ngOnInit(): void {
-    this.quests = this.questservice.getQuests();
+    this.questservice.getQuests().subscribe((quests)=> (this.quests= quests));
   }
 
 }

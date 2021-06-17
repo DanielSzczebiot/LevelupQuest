@@ -14,7 +14,7 @@ heroes: Hero[] = [];
   constructor(private heroService: HeroService) { }
 
   ngOnInit(): void {
-    this.heroes =  this.heroService.getAttributes()
+    this.heroService.getAttributes().subscribe((heroes)=> (this.heroes = heroes));
   }
   
 
