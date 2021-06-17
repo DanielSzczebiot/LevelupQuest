@@ -1,10 +1,10 @@
 import { Quest } from './Quest';
-export const HEROES: Quest[]=[
+export const QUESTS: Quest[]=[
     {
         questdate: "7. March 1456",
         questname: "How to slay wolfs",
         questreward: ["50 coins","Hunting Bow"],
-        questtask: "For your own sake you must find your curage and go into the woods to slay the wolf that ist near the fences at the river.",
+        questtask: "For your own sake you must find your courage and go into the woods to slay the wolf that ist near the fences at the river.",
 
     },
     {
