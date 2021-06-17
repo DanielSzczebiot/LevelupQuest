@@ -2,34 +2,55 @@
     "Heroes":
     [
         {
-            "name": "Will Wiliams",
-            "roll": "warrior",
-            "st": 8,
-            "ag": 7,
-            "co": 8,
-            "wi": 5,
-            "in": 3,
-            "ca": 5
+            "heroName": "Will Willliams",
+            "heroClass": "warrior",
+            "heroStrenght": 8,
+            "heroAgility": 7,
+            "heroConstitution": 8,
+            "heroWillpower": 5,
+            "heroIntelligence": 3,
+            "heroCharisma": 5,
+            "heroInventory": []
         },
         {
-            "name": "Henry Herold",
-            "roll": "Cleric",
-            "st": 6,
-            "ag": 6,
-            "co": 8,
-            "wi": 7,
-            "in": 4,
-            "ca": 5
+            "heroName": "Henry Herold",
+            "heroClass": "Cleric",
+            "heroStrenght": 6,
+            "heroAgility": 6,
+            "heroConstitution": 8,
+            "heroWillpower": 7,
+            "heroIntelligence": 4,
+            "heroCharisma": 5,
+            "heroInventory": []
         },
         {
-            "name": "Zeus Zennic",
-            "roll": "Mage",
-            "st": 2,
-            "ag": 3,
-            "co": 2,
-            "wi": 6,
-            "in": 9,
-            "ca": 7
+            "heroName": "Zeus Zennic",
+            "heroClass": "Wizard",
+            "heroStrenght": 2,
+            "heroAgility": 3,
+            "heroConstitution": 2,
+            "heroWillpower": 6,
+            "heroIntelligence": 9,
+            "heroCharisma": 7,
+            "heroInventory": []
+        }
+
+    ],
+
+    "Quests":[
+        {
+            "questdate": "7. March 1456",
+            "questname": "How to slay wolfs",
+            "questreward": ["50 coins","Hunting Bow"],
+            "questtask": "For your own sake you must find your curage and go into the woods to slay the wolf that ist near the fences at the river."
+    
+        },
+        {
+            "questdate": "12. June 1456",
+            "questname": "Get me some fucking Apples",
+            "questreward": ["10 Coins","Fruitknive", "10 Apples"],
+            "questtask": "Ohhh yeah! Its the best time in the year. Farmer John is not home and you.. yes you are about to hop the fences and get us some of his finest Apples!"
+    
         }
 
     ]

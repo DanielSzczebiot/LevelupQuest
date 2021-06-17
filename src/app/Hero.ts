@@ -1,11 +1,11 @@
 export interface Hero{
-    name: string;
-    class: string;
-    strenght: number;
-    agility: number;
-    constitution: number;
-    willpower: number;
-    intelligence: number;
-    charisma: number;
-    inventory: String[];
+    heroName: string;
+    heroClass: string;
+    heroStrenght: number;
+    heroAgility: number;
+    heroConstitution: number;
+    heroWillpower: number;
+    heroIntelligence: number;
+    heroCharisma: number;
+    heroInventory: String[];
 }
