@@ -1,4 +1,7 @@
-#sect1 {
-    background: "../../assets/test.png"; 
-}
+.MapImg {
+    background-image: url('../../../assets/Sword-Coast-Map_HighRes.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
 

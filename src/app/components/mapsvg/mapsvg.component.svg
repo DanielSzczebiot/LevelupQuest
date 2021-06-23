@@ -1,0 +1,13 @@
+<svg version="1.1" viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <image width="1024" height="768" preserveAspectRatio="none" xlink:href="../../../assets/Nu7rtr9.jpeg"/>
+  <path [attr.fill]="fill" (click)="changeColor()" d="m424.7 326.6a70.13 35.31 0 0 1-70.13 35.31 70.13 35.31 0 0 1-70.13-35.31 70.13 35.31 0 0 1 70.13-35.31 70.13 35.31 0 0 1 70.13 35.31z"/>
+  <path d="m946 561a80.92 35.31 0 0 1-80.92 35.31 80.92 35.31 0 0 1-80.92-35.31 80.92 35.31 0 0 1 80.92-35.31 80.92 35.31 0 0 1 80.92 35.31z" style="fill-opacity:.003215;fill-rule:evenodd;fill:#f00;paint-order:markers stroke fill;stroke-dasharray:11.8, 5.9, 2.95, 5.9;stroke-linejoin:round;stroke-width:5.9;stroke:#ffc800"/>
+  <path d="m830.8 328.1a69.15 45.61 0 0 1-69.15 45.61 69.15 45.61 0 0 1-69.15-45.61 69.15 45.61 0 0 1 69.15-45.61 69.15 45.61 0 0 1 69.15 45.61z" style="fill-opacity:.003215;fill:#f00;paint-order:markers stroke fill;stroke-dasharray:11.8, 5.9, 2.95, 5.9;stroke-linejoin:round;stroke-width:5.9;stroke:#ffc800"/>
+  <path d="m533.6 593.4a72.09 36.29 0 0 1-72.09 36.29 72.09 36.29 0 0 1-72.09-36.29 72.09 36.29 0 0 1 72.09-36.29 72.09 36.29 0 0 1 72.09 36.29z" style="fill-opacity:.003215;fill:#f00;paint-order:markers stroke fill;stroke-dasharray:11.8, 5.9, 2.95, 5.9;stroke-linejoin:round;stroke-width:5.9;stroke:#ffc800"/>
+  <path d="m226.6 255.5a90.24 26.97 0 0 1-90.24 26.97 90.24 26.97 0 0 1-90.24-26.97 90.24 26.97 0 0 1 90.24-26.97 90.24 26.97 0 0 1 90.24 26.97z" style="fill-opacity:.003215;fill:#f00;paint-order:markers stroke fill;stroke-dasharray:11.8, 5.9, 2.95, 5.9;stroke-linejoin:round;stroke-width:5.9;stroke:#ffc800"/>
+  <path d="m196.2 524.8a67.19 60.81 0 0 1-67.19 60.81 67.19 60.81 0 0 1-67.19-60.81 67.19 60.81 0 0 1 67.19-60.81 67.19 60.81 0 0 1 67.19 60.81z" style="fill-opacity:.003215;fill:#f00;paint-order:markers stroke fill;stroke-dasharray:11.8, 5.9, 2.95, 5.9;stroke-linejoin:round;stroke-width:5.9;stroke:#ffc800"/>
+  <path d="m612 268.8a76.02 47.08 0 0 1-76.02 47.08 76.02 47.08 0 0 1-76.02-47.08 76.02 47.08 0 0 1 76.02-47.08 76.02 47.08 0 0 1 76.02 47.08z" style="fill-opacity:.003215;fill:#f00;paint-order:markers stroke fill;stroke-dasharray:11.8, 5.9, 2.95, 5.9;stroke-linejoin:round;stroke-width:5.9;stroke:#ffc800"/>
+  <path d="m466.9 203a73.56 48.06 0 0 1-73.56 48.06 73.56 48.06 0 0 1-73.56-48.06 73.56 48.06 0 0 1 73.56-48.06 73.56 48.06 0 0 1 73.56 48.06z" style="fill-opacity:.003215;fill:#f00;paint-order:markers stroke fill;stroke-dasharray:11.8, 5.9, 2.95, 5.9;stroke-linejoin:round;stroke-width:5.9;stroke:#ffc800"/>
+ </g>
+</svg>

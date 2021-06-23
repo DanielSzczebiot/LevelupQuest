@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Hero } from 'src/app/Hero';
+import { Observable, of } from 'rxjs';
 
 @Component({
   selector: 'app-hero-item',
@@ -6,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero-item.component.css']
 })
 export class HeroItemComponent implements OnInit {
-
+  @Input() hero!: Hero;
+  heroes: Hero[] = [];
+  
   constructor() { }
 
   ngOnInit(): void {

@@ -10,6 +10,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
 // Components
 
 import { AppComponent } from './app.component';
@@ -25,6 +27,7 @@ import { HeroService } from './services/Hero.service';
 import { MapService } from './services/map.service';
 import { QuestService } from './services/quest.service';
 import { HeroItemComponent } from './components/hero-item/hero-item.component';
+import { MapsvgComponent } from './components/mapsvg/mapsvg.component';
 
 
 
@@ -37,7 +40,8 @@ import { HeroItemComponent } from './components/hero-item/hero-item.component';
     MapComponent,
     HeaderComponent,
     MainbodyComponent,
-    HeroItemComponent
+    HeroItemComponent,
+    MapsvgComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +52,9 @@ import { HeroItemComponent } from './components/hero-item/hero-item.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatCardModule,
+    MatGridListModule
   ],
   providers: [HeroService, MapService, QuestService],
   bootstrap: [AppComponent]
